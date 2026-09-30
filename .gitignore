@@ -1,0 +1,10 @@
+# Dependencies
+node_modules/
+
+# Secrets and local config
+.env
+.env.*
+
+# OS / editor files
+.DS_Store
+.vscode/
