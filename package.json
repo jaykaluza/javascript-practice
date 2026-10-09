@@ -1,0 +1,24 @@
+{
+  "name": "javascriptpractice",
+  "version": "1.0.0",
+  "description": "My hands-on practice files as I learn JavaScript, on the path **JavaScript → TypeScript → AI engineering**.",
+  "main": "clothing.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaykaluza/javascript-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/jaykaluza/javascript-practice/issues"
+  },
+  "homepage": "https://github.com/jaykaluza/javascript-practice#readme",
+  "dependencies": {
+    "chalk": "^6.0.1"
+  }
+}
