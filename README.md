@@ -13,6 +13,7 @@ My hands-on practice files as I learn JavaScript, on the path **JavaScript → T
 | 5 | Objects, properties, arrays of objects, JSON basics | `week5.js`, `week5_describeDevice.js`, `week5_inventory.js` |
 | 6    | Array methods: `map`, `filter`, `find`, `reduce`, `?.` and `??` | `week6.js`, `week6_filter.js`, `week6_mapExercises.js` |
 | 7    | Modules (`import`/`export`), npm, chalk, zod validation         | `week7/` (`devices.js`, `deviceUtils.js`, `main.js`, `validate.js`) |
+| 8    | Async: `setTimeout`, Promises, `async`/`await`, `fetch`, `Promise.all`, zod `safeParse` | `week8/` (`timing.js`, `checkDevices.js`, `api.js`, `users.js`, `report.js`, `validateUsers.js`) |
 
 ## Running a file
 
@@ -22,4 +23,8 @@ node week4_shoppingList.js
 
 ```bash
 node week7/main.js
+```
+
+```bash
+node week8/report.js
 ```
