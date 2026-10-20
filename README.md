@@ -14,6 +14,7 @@ My hands-on practice files as I learn JavaScript, on the path **JavaScript → T
 | 6    | Array methods: `map`, `filter`, `find`, `reduce`, `?.` and `??` | `week6.js`, `week6_filter.js`, `week6_mapExercises.js` |
 | 7    | Modules (`import`/`export`), npm, chalk, zod validation         | `week7/` (`devices.js`, `deviceUtils.js`, `main.js`, `validate.js`) |
 | 8    | Async: `setTimeout`, Promises, `async`/`await`, `fetch`, `Promise.all`, zod `safeParse` | `week8/` (`timing.js`, `checkDevices.js`, `api.js`, `users.js`, `report.js`, `validateUsers.js`) |
+| 9    | Error handling: `try`/`catch`/`finally`, `throw`, `response.ok`, `Promise.allSettled`, zod `.parse()` | `week9/` (`catchIt.js`, `divide.js`, `api.js`, `lookup.js`, `report.js`, `validate.js`) |
 
 ## Running a file
 
@@ -27,4 +28,8 @@ node week7/main.js
 
 ```bash
 node week8/report.js
+```
+
+```bash
+node week9/report.js
 ```
