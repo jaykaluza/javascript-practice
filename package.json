@@ -19,8 +19,9 @@
   },
   "homepage": "https://github.com/jaykaluza/javascript-practice#readme",
   "dependencies": {
+    "@modelcontextprotocol/server": "^2.4.0",
     "chalk": "^6.0.1",
-    "zod": "^4.6.5"
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@types/node": "^26.6.5",
