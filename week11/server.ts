@@ -1,7 +1,7 @@
 import { McpServer } from "@modelcontextprotocol/server";
 import { serveStdio } from "@modelcontextprotocol/server/stdio";
 import * as z from "zod/v4";
-import { getUser, getAllUsers } from "./users.ts"; //Added getAllusers from module users.ts
+import { getUser, getAllUsers } from "./users.ts"; //Added getAllUsers from module users.ts
 
 function createServer(): McpServer {
   const server = new McpServer({ name: "practice", version: "1.0.0" });
@@ -49,10 +49,11 @@ function createServer(): McpServer {
         }
         const lines = matches.map((u) => `#${u.id} ${u.name}`);
         return {
-          content: [{ type: "text", text: `${matches.length} users found:\n${lines.join("\n")}` }],
+          content: [{ type: "text", text: `${matches.length} ${matches.length === 1 ? "user" : "users"} found:\n${lines.join("\n")}` }],
         };
       } catch (error) {
         const message = error instanceof Error ? error.message : String(error);
+        console.error(`search_users "${text}" failed: ${message}`);
         return { content: [{ type: "text", text: `Search failed: ${message}` }], isError: true };
       }
     }
