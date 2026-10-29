@@ -1,0 +1,9 @@
+{
+    "servers": {
+        "week11-users": {
+            "type": "stdio",
+            "command": "node",
+            "args": ["${workspaceFolder}/week11/server.ts"]
+        }
+    }
+}
